@@ -1,0 +1,30 @@
+# Ignore virtual environment
+world/
+
+# Ignore Python bytecode and environment files
+*.pyc
+__pycache__/
+.venv/
+env/
+
+# Ignore IDE and editor files
+.vscode/
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore static, media, and template-related files
+/static/
+/staticfiles/
+/media/
+*.py-tpl
+
+# Ignore compiled translation and untranslated text files
+*.mo
+*.po
+
+# Ignore package distribution info (e.g., asgiref-*.dist-info)
+*.dist-info/
